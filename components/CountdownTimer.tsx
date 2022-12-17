@@ -54,26 +54,26 @@ function CountdownTimer() {
     )}
     else {
       return(
-      <div className='px-2'>
+      <div className=''>
         <h3 className='text-white text- mb-2 text-center italic'>Time Remaining</h3>
         <div className='flex space-x-auto'>
 
-        <div className='flex-1 px-2'>
+        <div className='flex-1 px-1'>
           <div className='countdown'>{days}</div>
           <div className='countdown-label'>days</div>
         </div>
 
-        <div className='flex-1 px-2'>
+        <div className='flex-1 px-1'>
           <div className='countdown'>{hours}</div>
           <div className='countdown-label'>hours</div>
         </div>
 
-        <div className='flex-1 px-2'>
+        <div className='flex-1 px-1'>
           <div className='countdown'>{minutes}</div>
           <div className='countdown-label'>minutes</div>
         </div>
 
-        <div className='flex-1 px-2'>
+        <div className='flex-1 px-1'>
           <div className='countdown'>{seconds}</div>
           <div className='countdown-label'>seconds</div>
           </div>
