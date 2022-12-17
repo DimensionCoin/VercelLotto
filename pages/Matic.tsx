@@ -89,7 +89,7 @@ const Matic = () => {
 
   const handleClick = async () => {
     setIsDisabled(true);
-    setTimeout(() => setIsDisabled(false), 22500);
+    setTimeout(() => setIsDisabled(false), 25500);
     if (!ticketPrice) return;
 
     const notification = toast.loading("Processing transaction");
