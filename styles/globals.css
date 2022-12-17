@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    
+    .stats{
+        @apply bg-gradient-to-r from-indigo-300 to-purple-400 text-white p-4 flex-1  rounded-lg border-black border-2 
+    }
+
+    .stats-container{
+        @apply bg-gradient-to-b from-gray-700 via-gray-900 to-black p-5  rounded-lg border-black border shadow-lg shadow-purple-400
+    }
+
+    .stats-container1{
+        @apply bg-gradient-to-b from-gray-700 via-gray-900 to-black p-5 rounded-lg border-white border shadow-inner
+    }
+
+    .countdown {
+        @apply p-5 font-bold text-2xl text-center text-black rounded-lg lg:min-w-[100px] bg-gradient-to-r from-indigo-300 to-purple-400 border-black border-2
+    }
+
+    .countdown-label {
+        @apply text-center text-white uppercase pt-3
+    }
+
+    .admin-button {
+        @apply bg-purple-300/30 hover:bg-gradient-to-r from-indigo-300 to-purple-400 p-2 flex-1 rounded-md border-black
+        border-2 
+    }
+
+    .stats1{
+        @apply bg-gradient-to-r from-sky-200 to-blue-400 text-white p-4 flex-1 rounded-md border-black border-2
+    }
+
+    .stats-container2{
+        @apply bg-gradient-to-b from-gray-700 via-gray-900 to-black p-5 rounded-lg border-black border shadow-lg shadow-red-300
+    }
+
+};

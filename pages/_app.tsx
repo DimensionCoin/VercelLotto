@@ -1,0 +1,14 @@
+import '../styles/globals.css'
+import type { AppProps } from 'next/app'
+import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react"
+import {Toaster} from "react-hot-toast";
+
+///make sure to use proper network
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <ThirdwebProvider desiredChainId={ChainId.Polygon}> 
+        <Component {...pageProps} />
+        <Toaster />
+    </ThirdwebProvider>
+  )
+}
