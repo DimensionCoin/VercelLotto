@@ -13,8 +13,7 @@ const Home: NextPage = () => {
   const address = useAddress();
   const {contract,isLoading}= useContract(process.env.NEXT_PUBLIC_LOTTERY_CONTRACT_ADDRESS);
 
-  if (isLoading) 
-  return <Loader />
+  
 
 if (!address) 
   return <Login />

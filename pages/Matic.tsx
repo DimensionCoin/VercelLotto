@@ -136,8 +136,7 @@ const Matic = () => {
     }
   };
 
-  if (isLoading) 
-    return <Loader />
+ 
   
   if (!address) 
     return <Login />
